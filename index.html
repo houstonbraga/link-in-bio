@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="/src/style/style.css" />
+    <title>Link in Bio</title>
+  </head>
+  <body class="bg-gray-600 flex items-center justify-center">
+    <main
+      class="flex flex-col max-w-[400px] w-[400px] rounded-[18px] bg-black text-white gap-4 py-12"
+    >
+      <!--Header-->
+      <div class="flex gap-4 items-center w-full color-component h-[60px]">
+        <div class="logo-img w-[46px] h-[46px] border border-white"></div>
+        <div class="flex flex-col gap-1">
+          <img
+            class="logo-img-small"
+            src="/src/images/GIBBS LOGOMARCA.png"
+            alt="logomarca"
+          />
+          <span class="text-xs text-gray-600">GIBBS (BR)</span>
+        </div>
+      </div>
+      <!--First block-->
+      <div class="flex gap-4 w-full items-center">
+        <div class="flex flex-col gap-4">
+          <div class="w-[232px] h-[163px] color-component"></div>
+          <div
+            class="w-[232px] h-[70px] color-component relative flex flex-col items-center justify-center gap-1"
+          >
+            <img
+              class="absolute top-2 left-2"
+              src="/src/images/live.svg"
+              alt="live"
+            />
+            <span class="text-xs text-gray-600">Streams</span>
+            <h2 id="streams" class="text-2xl">65.709</h2>
+          </div>
+        </div>
+
+        <div class="flex flex-col gap-4">
+          <a
+            href="#"
+            class="w-[120px] h-[70px] color-component flex justify-center cursor-pointer"
+          >
+            <img src="/src/images/icons8-soundcloud.svg" alt="img-btn" />
+          </a>
+
+          <a
+            href="#"
+            class="w-[120px] h-[70px] color-component flex justify-center cursor-pointer"
+          >
+            <img src="/src/images/icons8-spotify.svg" alt="img-btn" />
+          </a>
+
+          <a
+            href="#"
+            class="w-[120px] h-[70px] color-component flex justify-center cursor-pointer"
+          >
+            <img src="/src/images/icons8-youtube.svg" alt="img-btn" />
+          </a>
+        </div>
+      </div>
+      <!--Second block-->
+      <div class="flex gap-4 w-full items-center">
+        <a href="#" class="flex justify-center items-center w-full h-[70px] color-component">
+          <img src="/src/images/icons8-instagram.svg" alt="instagram">  
+        </a>
+
+        <a href="#" class="w-full color-component h-[70px] flex justify-center items-center">
+          <img src="/src/images/icons8-facebook-novo.svg" alt="facebook">  
+        </a>
+
+        <a href="#" class="w-full color-component h-[70px] flex justify-center items-center">
+          <img src="/src/images/icons8-twitter.svg" alt="twitter">  
+        </a>
+
+        <a href="#" class="w-full color-component h-[70px] flex justify-center items-center">
+          <img src="/src/images/icons8-whatsapp.svg" alt="whatsapp">  
+        </a>
+      </div>
+    </main>
+  </body>
+</html>
