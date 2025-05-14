@@ -29,3 +29,11 @@ main {
   width: 64px;
   height: 20px;
 }
+
+@media (max-width: 420px) {
+  main {
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 100vh;
+  }
+}
