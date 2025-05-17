@@ -3,7 +3,7 @@
 // --- CONFIGURAÇÃO COM SEUS DADOS ---
 const clientId = "17878fa317c44abc95855cb2b1317c4c"; // Seu Client ID
 const clientSecret = "8c74431a87a74035bfcf2b5b708859c5"; // Seu Client Secret
-const artistId = "72Cw5jkxXCO61rlJhZ7oXe"; // ID do artista
+const artistId = "72Cw5jkxXCO61rlJhZ7oXe"; // ID do artista (Gibbs)
 
 async function getAccessToken() {
   const result = await fetch("https://accounts.spotify.com/api/token", {

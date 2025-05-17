@@ -64,15 +64,11 @@ main {
   display: block;
 }
 
-.loading {
-  text-align: center;
-  font-style: italic;
-  margin-top: 40px;
-}
 
 @media (max-width: 420px) {
   main {
     margin: 0;
     height: 100%;
+    background-color: black;
   }
 }
